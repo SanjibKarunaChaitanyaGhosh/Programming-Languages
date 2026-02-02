@@ -10,7 +10,7 @@ class M
 	public static void main(String args[])
 	{
 		int r;
-		X.x=10; // Accessing without creating OBJECT
+		X.x=10; // Accessing without creating OBJECT, because of static
 		r=X.display();
 		System.out.println(r);
 	}

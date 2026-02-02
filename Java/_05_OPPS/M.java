@@ -6,7 +6,7 @@ class X
 	}
 }
 class M{
-	public static void mian(String args[]){
+	public static void main(String args[]){
 		X a=new X();
 		int r;
 		r=a.display();
